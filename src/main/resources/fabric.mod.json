@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "viewhands",
+  "version": "${version}",
+  "name": "ViewHands",
+  "description": "Tiny first-person viewmodel editor: held item size, position, rotation, swing animation and swing speed.",
+  "authors": ["tkinggidra"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["io.github.tkinggidra.viewhands.ViewHands"],
+    "modmenu": ["io.github.tkinggidra.viewhands.ModMenuIntegration"]
+  },
+  "mixins": ["viewhands.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "${minecraft}",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

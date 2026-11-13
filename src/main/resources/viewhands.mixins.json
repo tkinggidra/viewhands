@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.github.tkinggidra.viewhands.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "client": [
+    "ItemInHandRendererMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
